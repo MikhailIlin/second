@@ -18,7 +18,7 @@ int main()
 	cout << " carrots.";
 	cout << endl;
 	carrots = carrots - 1;
-	for (i=0; i<8; ++i)
+	for (o=0; o<8; ++o)
 	 cout << "Crunch, crunch. Now I have " << carrots << " carrots." << endl;
 	return 0;
 }
