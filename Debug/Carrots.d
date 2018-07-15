@@ -1,1 +1,0 @@
-Carrots.o: ../Carrots.cpp
