@@ -5,10 +5,12 @@
  *      Author: user
  */
 #include <iostream>
+#include <cstdint>
 int main()
 {
 	using namespace std;
 	int carrots;
+	uint8_t o = 0x00;
 
 	carrots = 25;
 	cout << "i have ";
@@ -16,7 +18,8 @@ int main()
 	cout << " carrots.";
 	cout << endl;
 	carrots = carrots - 1;
-	cout << "Crunch, crunch. Now I have " << carrots << " carrots." << endl;
+	for (i=0; i<8; ++i)
+	 cout << "Crunch, crunch. Now I have " << carrots << " carrots." << endl;
 	return 0;
 }
 
