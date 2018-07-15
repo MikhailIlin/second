@@ -18,8 +18,8 @@ int main()
 	cout << " carrots.";
 	cout << endl;
 	carrots = carrots - 1;
-	for (o=0; o<8; ++o)
-	 cout << "Crunch, crunch. Now I have " << carrots << " carrots." << endl;
+	for (o=0; o<25; ++o)
+	 cout << "Crunch, crunch. Now I have " << carrots - o << " carrots." << endl;
 	return 0;
 }
 
